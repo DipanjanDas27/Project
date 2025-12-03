@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hms-backend
+    env: node
+    rootDir: hospital-management/backend
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    autoDeploy: true
+    plan: free
+
